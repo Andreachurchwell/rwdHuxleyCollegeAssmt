@@ -1,0 +1,60 @@
+*{
+    background-color: whitesmoke;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+   
+}
+h3{
+    font-size: 23px;
+    text-align: left;
+    justify-content: center;
+   
+}
+.body{
+    display: flex;
+    border-top: 3px solid rgb(148, 25, 25);
+    font-size: 15px;
+    border-bottom: 2px solid rgb(148, 25, 25);
+  
+  
+}
+.leftC{
+    flex-direction: column;
+    width: 50%;
+    text-indent: 1em;
+
+    
+    
+}
+.middleC{
+    width: 25%;
+   
+
+}
+.rightC{
+    width: 25%;
+
+}
+.button{
+    width: 175px;
+    height: 40px;
+    display: block;
+    margin: 2%;
+    color: red;
+}
+.img{
+    width: 11px;
+    height: 10px;
+}
+.button:active{
+    opacity: .5;
+    background-color: crimson;
+}
+h1{
+    text-align: center;
+}
+p{
+    
+}
